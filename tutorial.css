@@ -1,0 +1,158 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: cursive;
+background: no-repeat;
+}
+body{
+    background: url(3186.jpg ) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500PX;
+
+}
+
+
+
+
+
+
+nav
+{
+    width: 85%;
+    display: flex;
+    margin: auto;
+    text-align: right;
+    padding: 30px 100px;
+    justify-content: space-between;
+background-color: #000000;
+background-blend-mode:darken;
+
+}
+ul li {
+  text-align: right;
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    
+}
+ul li::after{
+    content: '';
+    height: 3px;
+    width: 0%;
+    background: hsl(308, 100%, 50%);
+    position: absolute;
+left: 0;
+bottom: -0px;
+transition: 0.5s;
+} 
+ul li:hover:after{
+    width: 100%;
+}
+.content {
+    width: 100%;
+    position: absolute;
+    top: 30%;
+    text-align: center;
+    color: #fff;}
+
+    .content{
+        max-width: 960px;
+        font-size: 24px;
+    padding: 25px;    
+    }
+
+.h1{
+margin-top: 5%;
+color: #fff;
+margin-left: 50%
+
+
+}
+.h2{
+    margin-left:  10%; 
+    color: #fff;
+    margin-top: 6%;
+font-family: cursive;
+
+}
+.pra{
+    color: #fff;
+    size: 10px;
+    margin-top: 1%;
+    margin-left: 10%;
+margin-right:5% ;
+    
+}
+.h3{
+    color: #fff;
+    margin-left: 30%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+.img1{
+    padding-left: 30%;
+    image-resolution: 20%;
+}
+.h4{
+    color: #fff;
+   margin-left: 30%;
+   margin-top: 5%;
+   margin-bottom: 2%;
+   size: 100%;
+}
+.img2{
+    padding-left: 30%;
+    image-resolution: 20%;
+}
+.img3{
+    padding-left: 30%;
+    padding: right 30%; ;
+}
+.h5{
+    color: #fff;
+    margin-top: 5%;
+         margin-left: 30%;
+}
+.img4{
+    margin-left: 30%;
+}
+.p1{
+    margin-left: 20%;
+margin-top: 2%;
+}
+.p{
+    margin-left: 20%;
+}
+.p0{
+    margin-top: 5%;
+    margin-left:20%;
+}
+.h6{
+    color: #fff;
+    margin-top: 1%;
+         margin-left: 40%;
+}
+.p2{
+    margin-left:10% ;
+}
+.p3{
+    margin-left: 10%;
+    margin-top: 2%;
+}
+.p4{
+    margin-top: 5%;
+    margin-left:10%
+}
+.h8{
+    color: #fff;
+    margin-top: 8%;
+    margin-bottom: 3%;
+         margin-left: 40%;
+}

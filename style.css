@@ -1,0 +1,112 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: cursive;
+background: no-repeat;
+}
+body{
+    background: url(3186.jpg ) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500PX;
+
+}
+
+
+
+
+
+
+nav
+{
+    width: 85%;
+    display: flex;
+    margin: auto;
+    text-align: right;
+    padding: 30px 100px;
+    justify-content: space-between;
+background-color: #000000;
+background-blend-mode:darken;
+
+}
+ul li {
+  text-align: right;
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    
+}
+ul li::after{
+    content: '';
+    height: 3px;
+    width: 0%;
+    background: hsl(308, 100%, 50%);
+    position: absolute;
+left: 0;
+bottom: -0px;
+transition: 0.5s;
+} 
+ul li:hover:after{
+    width: 100%;
+}
+.content .h1 {
+    width: 100%;
+    position: absolute;
+    top: 40%;
+    text-align: center;
+    color: #fff;
+margin-right:30% ;}
+    
+
+    .content {
+        max-width: 960px;
+        font-size: 24px;
+    padding: 25px;    
+    }
+
+    .button{
+        color: #fff;
+        width:200px ;
+        padding: 15px 0;
+        margin: 20px 10px;
+        border-radius: 25px;
+        font-weight: bold;
+        border: 2px solid #fff;
+    background: transparent;
+    text-decoration:none;
+color: #fff;
+cursor: pointer;
+position: relative;    
+overflow: hidden;
+margin-top: 5%;
+margin-left: 45%;
+}
+span{
+    background-color: rgb(255, 0, 140);
+    height: 100%;
+    width: 0%;
+    position: absolute;
+    border-radius: 25px;
+    left: 0;
+    bottom: 0;
+z-index: -1;
+transition: 0.5s;
+}
+button:hover span{
+    width: 100%;
+}
+button a {
+    text-decoration: none;
+    color: #fff;
+}
+.h2{
+    color: #fff;
+    margin-top: 30%;
+    margin-left: 43%;
+}
